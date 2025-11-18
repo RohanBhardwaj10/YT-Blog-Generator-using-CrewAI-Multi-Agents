@@ -1,0 +1,21 @@
+# Core framework
+crewai==0.70.0
+crewai-tools==0.58.0
+
+# Streamlit UI
+streamlit==1.38.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# HTTP requests
+requests==2.32.3
+
+beautifulsoup4==4.12.3
+tqdm==4.66.5
+
+youtube-transcript-api==0.6.2
+pytube==15.0.0
+crewai-tools[youtube]==0.58.0
+
+duckduckgo-search==5.3.1b1
