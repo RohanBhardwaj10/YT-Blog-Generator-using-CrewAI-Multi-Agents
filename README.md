@@ -57,6 +57,5 @@ OPENAI_API_KEY=your_openai_api_key
 ├── tasks.py           # Defines tasks assigned to agents
 ├── tools.py           # Tool setup (YouTube channel search)
 ├── app.py             # Streamlit app entry point
-├── crew.py            # Crew setup and execution
 ├── requirements.txt    # Project dependencies
 └── README.md          # Project documentation
