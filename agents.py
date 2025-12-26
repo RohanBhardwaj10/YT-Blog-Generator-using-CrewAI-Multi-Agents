@@ -9,7 +9,6 @@ if not os.getenv("OPENAI_API_KEY"):
     raise ValueError("❌ key not found in environment variables.")
 
 
-# --- Blog Researcher Agent ---
 blog_researcher = Agent(
     role="YouTube Blog Researcher",
     goal="Find and summarize insights from YouTube videos about {topic}.",
@@ -23,7 +22,6 @@ blog_researcher = Agent(
     llm="gpt-4o-mini"  # ✅ Lightweight, fast, OpenAI model
 )
 
-# --- Blog Writer Agent ---
 blog_writer = Agent(
     role="Technical Blog Writer",
     goal="Write an engaging, clear blog post about {topic} using the research data.",
@@ -35,4 +33,5 @@ blog_writer = Agent(
     ),
     allow_delegation=False,
     llm="gpt-4o-mini"
+
 )
